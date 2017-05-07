@@ -46,9 +46,16 @@
 				</div>
 			</div>
 		</div>
-
-		<?php
+	</header>
+	<nav>
+		<div class="fw-container">
+			<div class="fw-row">
+				<div class="menu">
+								<?php
 			$args = array('theme_location' => 'top', 'container'=> 'nav', 'menu_class' => 'bottom-menu', 'menu_id' => 'bottom-nav');
 			wp_nav_menu($args);
 		?>
-	</header>
+				</div>
+			</div>
+		</div>	
+	</nav>

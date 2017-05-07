@@ -23,9 +23,9 @@ body{
 	font-size: 16px;
 	color: #342109;
 }
-
+/*---------------------------header---------------------------*/
 header{
-	padding: 25px 0 0 0;
+	padding: 25px 0 20px 0;
 }
 
 .logo{
@@ -99,4 +99,42 @@ header{
 	overflow: hidden;
     margin: 0 auto;
     width: 200px;
+
+}
+/*---------------------------menu---------------------------*/
+.menu{
+	height: 40px;
+	overflow: hidden;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.6);
+	background: url('../images/menu_bg.png')center bottom repeat-x;
+}
+
+.menu ul{
+	margin: 6px 0 0 0;
+}
+
+.menu ul li{
+	float: left;
+}
+
+.menu ul li a{
+	font-size: 20px;
+	cursor: pointer;
+	border-right: 1px solid #ffffff;
+	padding: 10px 26px;
+	transition: background-color 0.4s ease 0s;
+}
+
+.menu ul li:last-child a{
+	border-right: none;
+}
+
+.menu ul li a:hover{
+	text-decoration: none;
+	background: #a9875f url('../images/menu_bg_activ.png')repeat-x top center;
+}
+
+.menu ul .current-menu-item a{
+	color: #ffffff;
+	background: #55360f url('../images/menu_bg_activ.png')repeat-x top center;
 }
