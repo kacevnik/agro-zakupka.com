@@ -23,3 +23,80 @@ body{
 	font-size: 16px;
 	color: #342109;
 }
+
+header{
+	padding: 25px 0 0 0;
+}
+
+.logo{
+	width: 115px;
+	float: left;
+}
+
+.header_contact_info{
+	text-align: center;
+}
+
+.slogan{
+	font-family: 'playbold';
+	color: #000000;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+	font-size: 28px;
+}
+
+.phone_header{
+	font-size: 20px;
+	padding: 20px 0 0 0;
+}
+
+.phone_header span{
+	font-family: 'playbold';
+}
+
+.header_info{
+	text-align: center;
+	width: 90%;
+}
+
+.info_d{
+	font-size: 20px;
+	margin: 0 0 20px 0;
+}
+
+.backet{
+	width: 10%;
+	float: right;
+	text-align: center;
+}
+.backet a{
+	display: block;
+	background: url('../images/packeg.png')no-repeat top center;
+	height: 45px;
+	background-size: 84%;
+	padding: 15px 0 0 0;
+	width: 40px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.clock_elem{
+	float: left;
+	width: 22%;
+	font-size: 29px;
+    line-height: 0.5;
+    padding: 8px 0 8px 0;;
+}
+
+.clock_d{
+	width: 17%;
+}
+
+.clock_elem span{
+	font-size: 12px;
+}
+
+.clock_action_body{
+	overflow: hidden;
+    margin: 0 auto;
+    width: 200px;
+}
