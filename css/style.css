@@ -122,6 +122,7 @@ header{
 	cursor: pointer;
 	border-right: 1px solid #ffffff;
 	padding: 10px 26px;
+	color: #342109;
 	transition: background-color 0.4s ease 0s;
 }
 
@@ -134,7 +135,38 @@ header{
 	background: #a9875f url('../images/menu_bg_activ.png')repeat-x top center;
 }
 
+
 .menu ul .current-menu-item a{
 	color: #ffffff;
-	background: #55360f url('../images/menu_bg_activ.png')repeat-x top center;
+	background: rgba(85, 54, 15, 1) url('../images/menu_bg_activ.png')repeat-x top center;
+}
+
+ul.sub-menu{
+	z-index: 1000;
+	position: absolute;
+	top: 40px;
+	display: block;
+	background: #ffffff;
+	display: none;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.6);
+}
+
+ul.sub-menu li{
+	float: none;
+	height: 34px;
+	display: block;
+}
+
+.menu-item-has-children{
+
+}
+
+ul.sub-menu li a{
+	font-size: 18px;
+	border-right: none;
+	padding: 0;
+	padding: 5px 15px;
+	width: 100%;
+	display: block;
+	text-align: center;
 }
