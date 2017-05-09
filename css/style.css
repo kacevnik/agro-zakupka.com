@@ -121,7 +121,7 @@ header{
 	font-size: 20px;
 	cursor: pointer;
 	border-right: 1px solid #ffffff;
-	padding: 10px 26px;
+	padding: 10px 35.5px;
 	color: #342109;
 	transition: background-color 0.4s ease 0s;
 }
@@ -169,4 +169,35 @@ ul.sub-menu li a{
 	width: 100%;
 	display: block;
 	text-align: center;
+}
+
+/*-----------------------slider--------------------------*/
+.slider{
+	position: relative;
+}
+
+.slider_bg_item{
+	width: 416px;
+	height: 100%;
+	background: #372105;
+	position: absolute;
+	top: 0px;
+}
+.slider_bg_item img{
+	height: 100%;
+}
+
+.slider_slogan{
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 36px;
+	line-height: 1;
+	padding: 0 0 20px 0;
+}
+
+.slider_slogan span{
+	font-size: 46px;
 }

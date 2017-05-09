@@ -23,5 +23,13 @@ jQuery(document).ready(function ($) {
 	});
 
 /*------------------- end menu script------------------------------------------*/
-	
+
+
+/*------------------- slider script------------------------------------------*/	
+	$(window).resize(function(){
+		$('.slider_bg_item').css({'left':$('.fw-container').css('margin-left')});
+	});
+
+	$('.slider_bg_item').css({'left':$('.fw-container').css('margin-left')});
+/*-------------------  endslider script------------------------------------------*/	
 });

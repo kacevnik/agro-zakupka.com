@@ -59,3 +59,26 @@
 			</div>
 		</div>	
 	</nav>
+	<?php if(is_front_page()){ ?>
+	<section class="slider">
+		<div  id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				    <img src="<?php echo get_template_directory_uri().'/images/slide_1.jpg' ?>" alt="">
+				</div>
+				<div class="item">
+				      <img src="<?php echo get_template_directory_uri().'/images/slide_2.jpg' ?>" alt="">
+				</div>						
+				<div class="item">
+				      <img src="<?php echo get_template_directory_uri().'/images/slide_3.jpg' ?>" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="slider_bg_item">
+			<img src="<?php echo get_template_directory_uri().'/images/slider_bg.png' ?>" alt="">
+			<div class="slider_slogan">
+				Решения для здорого<br><span>будущего</span>
+			</div>
+		</div>
+	</section>
+	<?php } ?>
